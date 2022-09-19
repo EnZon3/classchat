@@ -17,4 +17,4 @@ http.listen(port, () => {
   console.log(`Socket.IO server running at http://localhost:${port}/`);
 });
 
-module.exports = { app };
+module.exports = app;
